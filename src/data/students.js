@@ -1,0 +1,58 @@
+const students = [
+  {
+    id: 1,
+    name: "Rahul Sharma",
+    rollNo: "101",
+    department: "CSE",
+    age: 20,
+    marks: 85,
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
+  },
+  {
+    id: 2,
+    name: "Priya Patel",
+    rollNo: "102",
+    department: "IT",
+    age: 21,
+    marks: 72,
+    image: "https://randomuser.me/api/portraits/women/2.jpg",
+  },
+  {
+    id: 3,
+    name: "Amit Kumar",
+    rollNo: "103",
+    department: "AIDS",
+    age: 19,
+    marks: 32,
+    image: "https://randomuser.me/api/portraits/men/3.jpg",
+  },
+  {
+    id: 4,
+    name: "Sneha Joshi",
+    rollNo: "104",
+    department: "ECE",
+    age: 20,
+    marks: 91,
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    id: 5,
+    name: "Rohan Deshmukh",
+    rollNo: "105",
+    department: "CSE",
+    age: 22,
+    marks: 65,
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    id: 6,
+    name: "Anjali Verma",
+    rollNo: "106",
+    department: "IT",
+    age: 21,
+    marks: 29,
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+];
+
+export default students;
