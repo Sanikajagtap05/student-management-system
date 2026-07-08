@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function StudentCard({ student }) {
   return (
     <div className="card shadow h-100">
@@ -29,9 +30,12 @@ function StudentCard({ student }) {
           )}
         </h5>
 
-        <button className="btn btn-primary me-2">
-          View
-        </button>
+        <Link
+to={`/students/${student.id}`}
+className="btn btn-primary"
+>
+View
+</Link>
 
         <button className="btn btn-warning me-2">
           Edit
