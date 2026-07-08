@@ -1,9 +1,12 @@
 import { useState } from "react";
 import StudentCard from "../components/StudentCard";
+import SearchBar from "../components/SearchBar";
 import studentsData from "../data/students";
 
 function Students() {
   const [students] = useState(studentsData);
+
+  const [searchTerm, setSearchTerm] = useState("");
 
   return (
     <div
@@ -24,6 +27,11 @@ function Students() {
       >
         Student List
       </h2>
+
+      <SearchBar
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+      />
 
       <div className="row">
         {students.map((student) => (

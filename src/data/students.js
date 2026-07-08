@@ -6,7 +6,7 @@ const students = [
     department: "CSE",
     age: 20,
     marks: 85,
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROHXYYFjwLEq6OWgboJ_cUg22Inda0H3HJSvsU0dKrIA&s=10",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const students = [
     department: "IT",
     age: 21,
     marks: 72,
-    image: "https://randomuser.me/api/portraits/women/2.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcRXhPjAoha6Y_yxezvZeq16hiFDc-08va8d49_5wf4Q&s=10",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const students = [
     department: "AIDS",
     age: 19,
     marks: 32,
-    image: "https://randomuser.me/api/portraits/men/3.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROHXYYFjwLEq6OWgboJ_cUg22Inda0H3HJSvsU0dKrIA&s=10",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const students = [
     department: "ECE",
     age: 20,
     marks: 91,
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkuQ0rB2ZOzkwXm2Myvas-mZRRiYQ-x2POjtRt-Bx1hA&s=10",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const students = [
     department: "CSE",
     age: 22,
     marks: 65,
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROHXYYFjwLEq6OWgboJ_cUg22Inda0H3HJSvsU0dKrIA&s=10",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const students = [
     department: "IT",
     age: 21,
     marks: 29,
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqbMCzGKSibt8P6I_cWTqiVHIkpGhZi70BqVU76ihbFA&s=10",
   },
 ];
 

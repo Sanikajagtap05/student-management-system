@@ -4,6 +4,7 @@ function Home() {
   return (
     <div className="container py-5">
 
+      {/* Hero Section */}
       <div className="text-center mb-5">
         <h1
           className="display-4 fw-bold text-primary"
@@ -31,73 +32,118 @@ function Home() {
 
       <div className="row g-4">
 
+        {/* Total Students */}
         <div className="col-md-4">
-          <div
-            className="card shadow border-0 h-100"
+          <Link
+            to="/students"
             style={{
-              borderRadius: "15px",
-              transition: "0.3s",
-              cursor: "pointer",
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = "translateY(-8px)";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = "translateY(0)";
+              textDecoration: "none",
+              color: "inherit",
             }}
           >
-            <div className="card-body text-center">
-              <h2 style={{ fontSize: "50px" }}>👨‍🎓</h2>
-              <h4>Total Students</h4>
-              <p>Manage all student records in one place.</p>
+            <div
+              className="card shadow border-0 h-100"
+              style={{
+                borderRadius: "15px",
+                transition: "0.3s",
+                cursor: "pointer",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateY(-8px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateY(0)";
+              }}
+            >
+              <div className="card-body text-center">
+                <h2 style={{ fontSize: "50px" }}>👨‍🎓</h2>
+
+                <h4>Total Students</h4>
+
+                <p>Manage all student records in one place.</p>
+
+                <button className="btn btn-primary">
+                  View Students
+                </button>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
 
+        {/* Add Students */}
         <div className="col-md-4">
-          <div
-            className="card shadow border-0 h-100"
+          <Link
+            to="/add-student"
             style={{
-              borderRadius: "15px",
-              transition: "0.3s",
-              cursor: "pointer",
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = "translateY(-8px)";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = "translateY(0)";
+              textDecoration: "none",
+              color: "inherit",
             }}
           >
-            <div className="card-body text-center">
-              <h2 style={{ fontSize: "50px" }}>➕</h2>
-              <h4>Add Students</h4>
-              <p>Add new student details using a React form.</p>
+            <div
+              className="card shadow border-0 h-100"
+              style={{
+                borderRadius: "15px",
+                transition: "0.3s",
+                cursor: "pointer",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateY(-8px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateY(0)";
+              }}
+            >
+              <div className="card-body text-center">
+                <h2 style={{ fontSize: "50px" }}>➕</h2>
+
+                <h4>Add Students</h4>
+
+                <p>Add new student details using a React form.</p>
+
+                <button className="btn btn-success">
+                  Add Student
+                </button>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
 
+        {/* Search & Filter */}
         <div className="col-md-4">
-          <div
-            className="card shadow border-0 h-100"
+          <Link
+            to="/students"
             style={{
-              borderRadius: "15px",
-              transition: "0.3s",
-              cursor: "pointer",
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = "translateY(-8px)";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = "translateY(0)";
+              textDecoration: "none",
+              color: "inherit",
             }}
           >
-            <div className="card-body text-center">
-              <h2 style={{ fontSize: "50px" }}>🔍</h2>
-              <h4>Search & Filter</h4>
-              <p>Find students by name and department.</p>
+            <div
+              className="card shadow border-0 h-100"
+              style={{
+                borderRadius: "15px",
+                transition: "0.3s",
+                cursor: "pointer",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateY(-8px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateY(0)";
+              }}
+            >
+              <div className="card-body text-center">
+                <h2 style={{ fontSize: "50px" }}>🔍</h2>
+
+                <h4>Search & Filter</h4>
+
+                <p>Find students by name and department.</p>
+
+                <button className="btn btn-warning text-dark">
+                  Search Students
+                </button>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
 
       </div>
